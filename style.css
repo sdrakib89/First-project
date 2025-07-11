@@ -37,3 +37,39 @@ nav{
     font-size: 34px;
     color: #4E47FF;
 }
+
+/*button area*/
+
+.sign-up-btn{
+    background-color: #4E47FF;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 38px;
+    border: none;
+}
+.focused-btn{
+    background-color: #4E47FF;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: none;
+}
+
+.preview-btn{
+    background-color: #4E47FF;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: none;
+}
+
+
+div p{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.middle{
+    text-align: center;
+    margin: 237px 267px;
+}
