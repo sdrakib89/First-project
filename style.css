@@ -73,3 +73,151 @@ div p{
     text-align: center;
     margin: 237px 267px;
 }
+
+
+/*action is started here*/
+
+.action{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 159px 137px 141px;
+    border-radius: 24px;
+        
+}
+
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    
+}
+.action-description{
+    font-size: 24px;
+    color: #252432;
+    
+}
+.action-content{
+    margin: 62px 220px 62px 0;
+    text-align: left;
+}
+.action-image{
+    width: 403px; 
+    height: 328px;
+    border: none;
+    border-radius: 48px;
+}
+
+/*Productive Area*/
+body{
+    background-color: #D6DDED;
+}
+.productivity{
+    border-radius: 24px;
+    padding: 50px 80px;
+    background-color: rgba(188, 71, 255, 0.1);
+    text-align: center;
+    margin: 116px 159px 137px 141px;
+}
+
+
+.productive-user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.productive-users{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.productive-number{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+/*newsletter section*/
+
+
+.newsletter-section{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 71px;
+    margin: 70px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    height: 490px;
+    margin: 71px 0;
+    text-align: left;
+   
+}
+.newsletter-title{
+    font-size: 97px;
+    margin: 200px 0;
+    font-weight: bold;
+}
+.newsletter-btn{
+    padding: 19px 101px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    margin-top: 20px;
+}
+.newsletter-input{
+    padding: 20px 32px;
+    border-radius: 10px;
+}
+.newsletter-text{
+    border-radius: 10px;
+    padding: 20px 32px;
+    width: 430px;
+    height: 136px;
+}
+
+
+.footer-section {
+  color: black;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  text-align: center;   
+  background-color: #FFFFFF;  
+}
+
+.footer-logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #4E47FF;
+  font-size: 100px;
+}
+
+.footer-description {
+  max-width: 600px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #8987A1;
+}
+
+.footer-item {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer-item li a {
+  text-decoration: none;
+  color: #8987A1;
+  transition: 0.3s;
+  font-size: 16px;
+}
